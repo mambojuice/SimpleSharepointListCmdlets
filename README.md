@@ -10,6 +10,10 @@ Sharepoint Client DLLs must be loaded from main script before calling any of the
 Add-Type -Path "C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll" 
 Add-Type -Path "C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.Runtime.dll"
 ```
+Then import the module and you're good to go!
+```powershell
+Import-Module "SimpleSharepointListCmdlets.psm1"
+```
 
 # Cmdlets
 
