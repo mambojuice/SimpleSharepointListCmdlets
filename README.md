@@ -12,7 +12,7 @@ Add-Type -Path "C:\Program Files\Common Files\microsoft shared\Web Server Extens
 ```
 Then import the module and you're good to go!
 ```powershell
-Import-Module "SimpleSharepointListCmdlets.psm1"
+Import-Module "C:\Path\To\SharepointCmdlets.psm1"
 ```
 
 # Cmdlets
